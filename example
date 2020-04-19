@@ -1,0 +1,7 @@
+syntax:
+My_encrypt <Encrypted file> <File to encrypt>
+My_decrypt <Decrypted file> <File to decrypt>
+
+example:
+My_encrypt TestFile_x.gpg TestFile.txt
+My_decrypt TestFile.txt TestFile_x.gpg

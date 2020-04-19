@@ -1,0 +1,8 @@
+/*Command syntax*/
+encrypt <Output file... Encrypted file> <File to Encrypt> <recipient email>
+decrypt <Decrypted file> <File to Decrypt>
+
+
+/*Examples...*/
+encrypt D:\OpenDocs\Test.gpg D:\OpenDocs\Test.txt reciever@mail.com
+decrypt D:\OpenDocs\Test.txt D:\OpenDocs\Test.gpg
